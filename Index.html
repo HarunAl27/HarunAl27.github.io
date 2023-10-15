@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>SKI 2023</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="Assect/Icon/SKI2023.png" alt="SKI23" class="logo-img">
+                <h1 class="logo-title"></h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#Moto">Moto</a></li>
+                    <li><a href="#Program">Program</a></li>
+                </ul>
+            </nav>
+            <button class="btn-cta" onclick="redirinstagram()">follow</button>
+        </header>
+        <div class="container">
+            <div class="intro">
+                <p class="title">Survai Kesehatan Indonesia 2023</p>
+                <p class="description">Enumerator Subang</p>
+                <img src="Assect/Foto/1.jpeg" alt="Enumerator Subang" class="img-foto"/>
+            </div>
+            <div class="paralax">
+                <div class="tentang" id="Moto">
+                    <p class="title">Moto:</p>
+                    <p class="description">"Diawali dengan basmalah dan diakhiri dengan hamdalah"</p>
+                    
+                 <div class="mt-10">
+                    <button class="btn-cta" onclick="redirwhatsapp()">Mari Kerjasama</button>
+                 </div>
+                </div>
+                <div class="container">
+                    <div class="card" id="Program">
+                        <div class="card-item">
+                            <img src="Assect/Icon/kemenkes.png" alt="kemenkes" class="icon">
+                            <p class="card-title">Program</p>
+                            <p class="card-description">Kemenkes</p>
+                        </div>
+                        <div class="card-item">
+                            <img src="Assect/Icon/SKI2023.png" alt="ski23" class="icon">
+                            <p class="card-title">Program</p>
+                            <p class="card-description">SKI23</p>
+                        </div>
+                        <div class="card-item">
+                            <img src="Assect/Icon/Jawara.png" alt="jawara" class="icon">
+                            <p class="card-title">Program</p>
+                            <p class="card-description">Subang</p>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="title">Done:</p>
+            <p class="description">Enumerator Subang Data 100%</p>
+        </footer>
+        <script>
+            function redirinstagram() {
+                window.Location.href ="https://instagram.com/skisubangjawara?igshid=MzRlODBiNWFlZA=="
+            }
+            function redirwhatsapp() {
+                window.location.href ="https://wa.me/;0895321906161"
+            }
+        </script>
+    </body>
+</html>
